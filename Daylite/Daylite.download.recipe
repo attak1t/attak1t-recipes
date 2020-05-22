@@ -31,7 +31,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%/downloads/pkg</string>
+				<string>%RECIPE_CACHE_DIR%/downloads/Daylite.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>Unarchiver</string>
@@ -42,7 +42,7 @@
             <key>Arguments</key>
             <dict>
                 <key>flat_pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/pkg</string>
+                <string>%RECIPE_CACHE_DIR%/downloads/Daylite.pkg</string>
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/pkg_unpack</string>
                 <key>purge_destination</key>
