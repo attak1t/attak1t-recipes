@@ -17,6 +17,7 @@
             <key>catalogs</key>
             <array>
                 <string>testing</string>
+                <string>development</string>
             </array>
             <key>description</key>
             <string>Daylite keeps everything related to your business in one place, so you and your team can share information wherever they are by Mac, iPhone, and iPad. Your contacts, schedule, tasks, projects, sales opportunities, emails, and notes are all there, making it easy to find what you are looking for in seconds.</string>
