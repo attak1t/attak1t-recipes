@@ -8,31 +8,26 @@
     <string>com.github.attak1t.download.daylite</string>
     <key>Input</key>
     <dict>
-        <key>NAME</key>
-        <string>latest-daylite</string>
-        <key>DOWNLOAD_URL</key>
-        <string>https://www.marketcircle.com/appcasts/releases/latest-daylite.zip</string>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.2.0</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>%DOWNLOAD_URL%</string>
-                <key>filename</key>
-                <string>%NAME%.zip</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>EndOfCheckPhase</string>
-        </dict>
-        <dict>
+		<key>NAME</key>
+		<string>latest-daylite</string>
+		<key>url</key>
+		<string>https://www.marketcircle.com/appcasts/releases/latest-daylite.zip</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict/>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
