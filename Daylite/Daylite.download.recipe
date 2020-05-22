@@ -5,13 +5,13 @@
     <key>Description</key>
     <string>Download recipe for Daylite.</string>
     <key>Identifier</key>
-    <string>com.github.bradclare.download.daylite</string>
+    <string>com.github.attak1t.download.daylite</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
         <string>Daylite</string>
         <key>DOWNLOAD_URL</key>
-        <string>https://www.marketcircle.com/downloads/latest-daylite</string>
+        <string>https://www.marketcircle.com/appcasts/releases/latest-daylite.zip</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -25,13 +25,24 @@
                 <key>url</key>
                 <string>%DOWNLOAD_URL%</string>
                 <key>filename</key>
-                <string>%NAME%.pkg</string>
+                <string>%NAME%.zip</string>
             </dict>
         </dict>
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
         </dict>
+        <dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+		</dict>
         <dict>
             <key>Processor</key>
             <string>FlatPkgUnpacker</string>
