@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Daylite</string>
+        <string>latest-daylite</string>
         <key>DOWNLOAD_URL</key>
         <string>https://www.marketcircle.com/appcasts/releases/latest-daylite.zip</string>
     </dict>
