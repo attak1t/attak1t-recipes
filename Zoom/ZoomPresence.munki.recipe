@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of the Zoom Rooms (Mac) application and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.munki.ZoomPresence</string>
+	<string>com.github.attak1t.munki.ZoomPresence</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -39,7 +39,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.download.ZoomPresence</string>
+	<string>com.github.attak1t.download.ZoomPresence</string>
 	<key>Process</key>
 	<array>
 		<dict>
