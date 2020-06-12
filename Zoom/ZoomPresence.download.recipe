@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of the Zoom Rooms (Mac) application to setup your conference room for one-touch meeting and calendar integration.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.download.ZoomPresence</string>
+	<string>com.github.attak1t.download.ZoomPresence</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
