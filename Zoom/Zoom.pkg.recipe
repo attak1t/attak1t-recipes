@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the current release version of Zoom and builds a package.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.pkg.Zoom</string>
+	<string>com.github.attak1t.pkg.Zoom</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
@@ -79,7 +79,7 @@
 							<key>path</key>
 							<string>Applications</string>
 							<key>user</key>
-							<string>root</string>
+							<string>sysadmin</string>
 						</dict>
 					</array>
 					<key>id</key>
